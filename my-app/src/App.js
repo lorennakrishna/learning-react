@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
 function App() { 
   
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
      <h1>Ola Mundo</h1>
      <p>Meu primeiro app</p>
+     <HelloWorld/>
      <p>Ola, {newName}</p>
      <p>Ola novamente, {name}</p>
     <p>Soma: {2+2}</p>
