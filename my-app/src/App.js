@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+/*mport logo from './logo.svg'; */
 import './App.css';
-import HelloWorld from './components/HelloWorld'
+/*import HelloWorld from './components/HelloWorld' */
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa';
-
+import Frase from './components/Frase';
 function App() { 
  
-  const teste = "Lorenna"
-  /*
+ /* const teste = "Lorenna"
+  
   const name = 'Lorenna'
 
   const newName = name.toUpperCase()
@@ -23,6 +23,8 @@ function App() {
 
     <div className="App">
 
+      <Frase/>
+      <Frase/>
      <SayMyName teste="Renata"/>
      <SayMyName teste="lorenna krishna"/>
       <Pessoa
